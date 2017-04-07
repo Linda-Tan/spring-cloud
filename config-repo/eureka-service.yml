@@ -11,9 +11,9 @@ eureka:
       defaultZone: http://localhost:8761/eureka-service/
    healthcheck:
       enabled: true
-   instance: 
-    preferIpAddress: true
-    leaseRenewalIntervalInSeconds: 10
-    leaseExpirationDurationInSeconds: 15
-    lease-expiration-duration-in-seconds: 30
-    lease-renewal-interval-in-seconds: 10
+  instance: 
+   preferIpAddress: true
+   leaseRenewalIntervalInSeconds: 10
+   leaseExpirationDurationInSeconds: 15
+   lease-expiration-duration-in-seconds: 30
+   lease-renewal-interval-in-seconds: 10
