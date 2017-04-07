@@ -1,0 +1,23 @@
+server:
+   port: 8761
+eureka:
+  server:
+   enable-self-preservation: false
+   eviction-interval-timer-in-ms: 4000
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+<<<<<<< HEAD
+=======
+   healthcheck:
+      enabled: true
+>>>>>>> branch 'master' of https://github.com/Linda-Tan/spring-cloud.git
+  instance: 
+   hostname: localhost
+   preferIpAddress: true
+   leaseRenewalIntervalInSeconds: 10
+   leaseExpirationDurationInSeconds: 15
+   lease-expiration-duration-in-seconds: 30
+   lease-renewal-interval-in-seconds: 10

@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.19.73:8888
+      name: eureka-service
+      label: master
+      profile: master
