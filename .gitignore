@@ -8,6 +8,10 @@ target/
 .project
 .settings
 .springBeans
+<<<<<<< HEAD
+=======
+.metadata
+>>>>>>> bafc94a44fa2f33202885904fdf69946fc09cbdb
 
 ### IntelliJ IDEA ###
 .idea
