@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="Zuul-service"/>
-<aop-project name="Config"/>
-<aop-project name="eureka-service"/>
-<aop-project name="web-service"/>
-</aop-reference-model>
