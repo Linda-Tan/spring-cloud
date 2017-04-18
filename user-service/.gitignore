@@ -1,8 +1,4 @@
-RemoteSystemsTempFiles/
 target/
-.metadata/*
-.metadata/
-*.log
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -12,7 +8,6 @@ target/
 .project
 .settings
 .springBeans
-
 
 ### IntelliJ IDEA ###
 .idea
@@ -27,11 +22,3 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-
-
-# Other Editor's noise
-*~
-*.swp
-
-# MacOSX noise
-.DS_Store
