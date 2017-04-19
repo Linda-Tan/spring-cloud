@@ -1,5 +1,6 @@
 RemoteSystemsTempFiles/
 target/
+test/
 .metadata/*
 .metadata/
 *.log
