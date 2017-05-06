@@ -7,14 +7,14 @@ import javax.persistence.Table;
 
 @Table(name="user")
 public class User {
-	
+
 	@Id
 	@GeneratedValue(generator = "UUID")
 	private String id;
-	
+
 	@Column
 	private String name;
-	
+
 	@Column
 	private Integer age;
 
